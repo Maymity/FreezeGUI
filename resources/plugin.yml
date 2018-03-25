@@ -1,0 +1,15 @@
+name: FreezeGUI
+version: 4.8
+author: Maymity
+main: it.maymity.freezegui.Main
+commands:
+  freeze:
+    description: With this command you can Freeze a player
+  unfreeze:
+    description: With this command you can unFreeze a player
+  freezeall:
+    description: With this command you can Freeze all player
+  unfreezeall:
+    description: With this command you can UnFreeze all player
+  freezegui:
+      description: With this command you can Reload the Plugin
