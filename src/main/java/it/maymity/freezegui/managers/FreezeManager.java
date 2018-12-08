@@ -13,7 +13,7 @@ public class FreezeManager {
     @Getter private ArrayList FreezeList = new ArrayList();
     @Getter @Setter private boolean update = false;
 
-    public synchronized  static FreezeManager getInstance() {
+    public static FreezeManager getInstance() {
         if (instance == null) {
             instance = new FreezeManager();
         }
