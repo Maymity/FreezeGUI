@@ -1,0 +1,50 @@
+name: '&c&lYou have been Frozen!'
+rows: 1
+
+items:
+  TeamSpeak_1:
+    name: '&c&lTeamSpeak'
+    material: PAPER
+    data: 0
+    amount: 1
+    slot: 0
+    lore:
+    - '&eJoin in TeamSpeak'
+    - ''
+    - '&a&lts.example.com'
+    - ''
+    - '&7Click to allert the Staff'
+    - '&7that you are entering our TeamSpeak'
+    - ''
+    - '&c&lSLOG=BAN'
+    actions:
+    - 'CLICK-TEAMSPEAK'
+  admittedCheat:
+    name: '&c&lADMITTED CHEAT'
+    material: CHEST
+    data: 0
+    amount: 1
+    slot: 4
+    lore:
+    - '&cIf you click here, your ban'
+    - '&7will be reduced'
+    actions:
+    - 'CLOSE-INVENTORY'
+    - 'OPEN-SURE-MENU'
+  TeamSpeak_2:
+    name: '&c&lTeamSpeak'
+    material: PAPER
+    data: 0
+    amount: 1
+    slot: 8
+    lore:
+    - '&eJoin in TeamSpeak'
+    - ''
+    - '&a&lts.example.com'
+    - ''
+    - '&7Click to allert the Staff'
+    - '&7that you are entering our TeamSpeak'
+    - ''
+    - '&c&lSLOG=BAN'
+    actions:
+    - 'CLICK-TEAMSPEAK'

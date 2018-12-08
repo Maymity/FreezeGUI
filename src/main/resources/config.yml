@@ -1,0 +1,11 @@
+settings:
+ config_version: 5.0
+ prefix: '&7[&bFreeze&eGUI&c+&7]&r '
+ check_update_on_join: true
+ timer_teamspeak_click: 10
+
+commands:
+ punish_command: 'tempban %player 7d Hack'
+ slog_command: 'tempban %player 10d Hack'
+ freeze: 'say %player is now Freezed!'
+ unfreeze: 'say %player isn''t a hacker!'

@@ -1,0 +1,26 @@
+name: '&c&lConfirm?'
+rows: 1
+
+items:
+  yes:
+    name: '&c&lYes'
+    material: WOOL
+    data: 13
+    amount: 1
+    slot: 2
+    lore:
+    - '&cConfirm that you are using Hack'
+    actions:
+    - 'CLOSE-INVENTORY'
+    - 'ADMITTED-CHEAT'
+  no:
+    name: '&c&lNo'
+    material: WOOL
+    data: 14
+    amount: 1
+    slot: 6
+    lore:
+    - '&cGo back'
+    actions:
+    - 'CLOSE-INVENTORY'
+    - 'RETURN-MENU'
